@@ -24,9 +24,9 @@ int main() {
   // Information
   std::cout << "DD2 Auto G UP was written by Keiki83, version " <<
     version << std::endl;
-  std::cout << "This program is automatic and will detect your interaction" <<
-  " with DD2.\nYou do not need to start and stop the program.\nSimply tab-out" <<
-  " for DD2-AutoGUp to take over.\n" << std::endl;
+  std::cout << "This program is automatic and will detect your interaction with DD2.\n" <<
+    "You do not need to start and stop the program.\n" <<
+    "Simply tab-out for DD2-AutoGUp to take over.\n" << std::endl;
 
   // Primary Loop
   PrintChat(gameWindow, "Player has started DD2 - Auto G Up");
