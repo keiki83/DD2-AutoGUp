@@ -26,7 +26,7 @@ int main() {
     version << std::endl;
   std::cout << "This program is automatic and will detect your interaction" <<
   " with DD2.\nYou do not need to start and stop the program.\nSimply tab-out" <<
-  " for DD2 Auto G UP to take over.\n" << std::endl;
+  " for DD2-AutoGUp to take over.\n" << std::endl;
 
   // Primary Loop
   PrintChat(gameWindow, "Player has started DD2 - Auto G Up");
