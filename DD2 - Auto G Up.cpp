@@ -1,6 +1,6 @@
 // Developed by Keiki83
 
-#define version 1.01
+#define version 1.02
 #include <windows.h>
 #include <stdlib.h>
 #include <iostream>
