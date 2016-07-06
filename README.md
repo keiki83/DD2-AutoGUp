@@ -1,4 +1,4 @@
-# DD2-AGUp
+# DD2-AutoGUp
 Dungeon Defenders 2 - Auto G Up
 
 This program is automatic and will detect your interaction with DD2.
