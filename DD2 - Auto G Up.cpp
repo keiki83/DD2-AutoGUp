@@ -44,7 +44,7 @@ int main() {
 
 // Trasmit key strokes to arg1 based on contents of arg2
 void TransmitKeyStrokes(HWND window, std::string value) {
-  for(int i = 0; i < value.length(); i++) {
+  for(int i = 0; i < (int)value.length(); i++) {
     SendMessage(window, WM_KEYDOWN, value[i], 0);
     SendMessage(window, WM_KEYUP, value[i], 0);
   }
@@ -54,7 +54,7 @@ void TransmitKeyStrokes(HWND window, std::string value) {
 void PrintChat(HWND window, std::string message) {
   SendMessage(window, WM_KEYDOWN, VK_RETURN, 0);
   SendMessage(window, WM_KEYUP, VK_RETURN, 0);
-  for(int i = 0; i < message.length(); i++)
+  for(int i = 0; i < (int)message.length(); i++)
     SendMessage(window, WM_CHAR, message[i], 0);
   SendMessage(window, WM_KEYDOWN, VK_RETURN, 0);
   SendMessage(window, WM_KEYUP, VK_RETURN, 0);
